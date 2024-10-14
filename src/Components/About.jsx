@@ -35,7 +35,7 @@ const About = () => {
             </Text>
           <VStack spacing='2' alignItems={'left'} fontWeight={'Bold'} color={'gray'}>
             <Text>From 10:00 AM To 4:00 PM</Text>
-            <Text>I will be in madrass high court</Text>
+            <Text>I will be in moradabad district court</Text>
           </VStack>
         </VStack>
         
