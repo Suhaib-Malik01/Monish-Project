@@ -14,9 +14,9 @@ const Work = () => {
       alignItems={["center", "center", "center"]}
       justifyContent={'center'}
     >
-      <Heading fontSize={['2xl','3xl']}>MY LEGAL SERVICES INCLUDE</Heading>
+      <Heading fontSize={['xl','2xl']}>MY LEGAL SERVICES INCLUDE</Heading>
 
-      <UnorderedList textAlign={'left'} w={'full'}>
+      <UnorderedList textAlign={'left'} w={'full'} width={['90%','100%']} pt={'5'}>
         {services.map((service, index) => (
           <ListItem key={index}>{service}</ListItem>
         ))}
